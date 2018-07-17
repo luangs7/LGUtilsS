@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+`Swift 3 or above`
 
 ## Installation
 
@@ -22,7 +23,7 @@ pod 'LGUtilsS'
 
 ## Author
 
-luangs7, luan@squarebits.com.br
+luangs7, luan263@gmail.com
 
 ## License
 
