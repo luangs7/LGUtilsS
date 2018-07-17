@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LGUtilsS_Tests' do
+  pod 'LGUtilsS', :path => '../'
+  
+  
+end
