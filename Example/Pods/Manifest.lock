@@ -1,0 +1,16 @@
+PODS:
+  - LGUtilsS (0.1.0)
+
+DEPENDENCIES:
+  - LGUtilsS (from `../`)
+
+EXTERNAL SOURCES:
+  LGUtilsS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGUtilsS: 186599ea343d7f1d481f20c736b52d047ee4ead5
+
+PODFILE CHECKSUM: 6f7d2b716bfdf74910b5b78188aaade58134f6b8
+
+COCOAPODS: 1.4.0

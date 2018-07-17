@@ -1,0 +1,6 @@
+framework module LGUtilsS {
+  umbrella header "LGUtilsS-umbrella.h"
+
+  export *
+  module * { export * }
+}

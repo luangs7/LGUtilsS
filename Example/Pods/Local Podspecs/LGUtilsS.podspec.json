@@ -1,0 +1,22 @@
+{
+  "name": "LGUtilsS",
+  "version": "0.1.0",
+  "summary": "A short description of LGUtilsS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luangs7/LGUtilsS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luangs7": "luan@squarebits.com.br"
+  },
+  "source": {
+    "git": "https://github.com/luangs7/LGUtilsS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGUtilsS/Classes/**/*"
+}
