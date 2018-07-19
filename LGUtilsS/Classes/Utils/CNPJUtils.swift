@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CNPJUtils: NSObject {
+open class CNPJUtils: NSObject {
 
     
     static func isValid(string: String) -> Bool {

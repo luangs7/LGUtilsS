@@ -10,18 +10,18 @@ import UIKit
 
 extension UIViewController{
 
-    func ignoreEvents(){
+    public func ignoreEvents(){
          view.endEditing(true)
          UIApplication.shared.beginIgnoringInteractionEvents()
     }
     
-    func endIgnoreEvents(){
+    public func endIgnoreEvents(){
         if UIApplication.shared.isIgnoringInteractionEvents {
             UIApplication.shared.endIgnoringInteractionEvents()
         }
     }
     
-    func setBlackView()->UIView{
+    public func setBlackView()->UIView{
         
         let blackView = UIView()
         

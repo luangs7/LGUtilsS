@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class JuquinhaTF: UITextField {
+open class JuquinhaTF: UITextField {
 
     @IBInspectable var cornerRadius: CGFloat {
         get {

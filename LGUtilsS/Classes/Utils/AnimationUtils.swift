@@ -17,7 +17,7 @@ extension Array {
     }
 }
 
-public class AnimationUtils {
+open public class AnimationUtils {
     
     typealias animationCompletion = (Bool) -> Void
     

@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView{
     
-    func setGradientBackground(colors: [UIColor]) {
+    public func setGradientBackground(colors: [UIColor]) {
         
         var updatedFrame = bounds
         updatedFrame.size.height += self.frame.origin.y
@@ -20,7 +20,7 @@ extension UIView{
     }
     
     
-    func removeBlackView(){
+    public func removeBlackView(){
         UIView.animate(withDuration: 0.5, delay: 0.0, options: [], animations: {
             self.alpha = 0
         }, completion: { (finished: Bool) in

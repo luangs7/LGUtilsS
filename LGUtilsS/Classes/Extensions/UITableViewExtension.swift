@@ -10,7 +10,7 @@ import UIKit
 
 extension UITableView {
     
-    func setEmptyMessage(_ message: String) {
+   public func setEmptyMessage(_ message: String) {
         let messageLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height))
         messageLabel.text = message
         messageLabel.textColor = .black
@@ -23,37 +23,37 @@ extension UITableView {
         self.separatorStyle = .none;
     }
     
-    func restore() {
+    public func restore() {
         self.backgroundView = nil
 //        self.separatorStyle = .singleLine
     }
     
-    func scrollToFirstRow(animated:Bool) {
+   public func scrollToFirstRow(animated:Bool) {
         let indexPath = IndexPath(row: 0, section: 0)
         scrollToRow(at: indexPath as IndexPath, at: .top, animated: animated)
     }
     
-    func scrollToLastRow(animated:Bool, count:Int) {
+   public func scrollToLastRow(animated:Bool, count:Int) {
         let indexPath = IndexPath(row: count - 1, section: 0)
         scrollToRow(at: indexPath as IndexPath, at: .bottom, animated: animated)
     }
     
-    func scrollToSelectedRow(animated:Bool) {
+    public func scrollToSelectedRow(animated:Bool) {
         let selectedRows = indexPathsForSelectedRows
         if let selectedRow = selectedRows?[0] {
             scrollToRow(at: selectedRow, at: .middle, animated: animated)
         }
     }
     
-    func scrollToHeader(animated:Bool) {
+   public func scrollToHeader(animated:Bool) {
         scrollRectToVisible(CGRect(x: 0, y: 0, width: 1, height: 1), animated: animated)
     }
     
-    func scrollToTop(animated:Bool){
+   public func scrollToTop(animated:Bool){
         setContentOffset(.zero, animated: animated)
     }
     
-    func disableScrollsToTopPropertyOnAllSubviewsOf(view: UIView) {
+   public func disableScrollsToTopPropertyOnAllSubviewsOf(view: UIView) {
         for subview in view.subviews {
             if let scrollView = subview as? UIScrollView {
                 (scrollView as UIScrollView).scrollsToTop = false

@@ -9,7 +9,7 @@
 
 import UIKit
 
-class UserDefault {
+open class UserDefault {
     
     //MARK: - Synchronize
     static open func synchornize() {

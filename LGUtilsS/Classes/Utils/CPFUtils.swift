@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-public class CPFUtils: NSObject {
+open public class CPFUtils: NSObject {
     
     //MARK: - Mask
     
